@@ -10,28 +10,14 @@
 
 1. Abra o terminal MSYS64
 
-2. No terminal MSYS64, execute:
+2. No terminal MSYS64, navegue até o diretório do projeto:
 ```bash
-bash
+cd "/c/Users/Tayler Tempest/Documents/Development/UFC/Computacao Grafica"
 ```
 
-3. Navegue até o diretório do projeto (se necessário)
-
-4. Compile o projeto (se ainda não foi compilado):
+4. Rode o projeto com o comando:
 ```bash
-g++ -o orbit *.cc
-```
-
-5. Execute o programa:
-```bash
-./orbit.exe
-```
-
-### Compilação alternativa
-
-Se precisar recompilar o projeto:
-```bash
-g++ main.cc Planet.cc Point.cc Vector.cc draw.cc -o orbit
+bash run_orbit.sh
 ```
 
 ## Descrição
